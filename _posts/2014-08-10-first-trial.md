@@ -1,15 +1,14 @@
 ---
 layout: post
-title: "First Trial"
+title: "我的个人博客第一天，向GitHub致敬"
 description: ""
-category: 
-tags: [first,new,github,jekyll]
+tags: [github,jekyll]
 ---
 {% include JB/setup %}
 
 曾几何时，想建立自己的个人博客，因为种种原因没有付诸行动，现在我终于迈出了我的第一步，加入了Github blog这个大家庭，这个激动人心的时刻，必须用文字记录下来。
 在整个建立博客的过程中遇到各种问题，现记录如下：
-
+<!--break-->
 参考资料：<br>
 1. 使用 GitHub, Jekyll 打造自己的免费独立博客<br>
 [http://blog.csdn.net/on_1y/article/details/19259435](http://blog.csdn.net/on_1y/article/details/19259435)<br>
@@ -22,10 +21,11 @@ Jekylly On Windows<br>
 4.Windows下安装Ruby和DevelopmentKit<br>
 在下面的页面中下载这两个文件<br>
 [http://rubyinstaller.org/downloads/](http://rubyinstaller.org/downloads/)<br>
+Ruby安装路径中不能带空格，否则会报错。<br>
+Ruby默认安装没有把bin目录加入path环境变量，需要加入path变量后才能执行Ruby命令。
 5.DevelopmentKit使用说明<br>
 [https://github.com/oneclick/rubyinstaller/wiki/development-kit](https://github.com/oneclick/rubyinstaller/wiki/development-kit)<br>
-里面说了很多，其实就下面一句话有用。解压的目录中不能带空格，否则会报错。<br>
-Ruby默认安装没有把bin目录加入path环境变量，需要加入path变量后才能执行Ruby命令。
+里面说了很多，其实就下面一句话有用。
 
 > Download it, run it to extract it somewhere (permanent). Then cd to it, run “ruby dk.rb init” and “ruby dk.rb install” to bind it to ruby installations in your path.<br>
 

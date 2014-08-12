@@ -1,0 +1,34 @@
+---
+layout: default
+title: 3T工作室 博客首页
+tagline: tagline
+---
+{% include JB/setup %}
+
+<div data-am-widget="list_news" class="am-list-news am-list-news-default">
+  <div class="am-list-news-bd">
+    <ul class="am-list">
+      <!--缩略图在标题左边-->
+      {% for post in site.posts limit:30 %}
+      <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left single-post">
+        <div class="am-col col-sm-4 am-list-thumb" style="max-width: 100px;float: left;">
+          <a href="{{ BASE_PATH }}{{ post.url }}">
+            <img src="http://img5.douban.com/lpic/o636459.jpg" alt="我很囧，你保重....晒晒旅行中的那些囧！"
+            />
+          </a>
+        </div>
+        <div class="am-col col-sm-12 am-list-main" style="position: absolute;padding-left: 110px;">
+          <h3 class="am-list-item-hd">
+            <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+          </h3>
+          <h4 class="am-list-item-hd post-detail">
+            <span class="post-date">{{ post.date | date:"%Y-%m-%d" }}</span>
+            <span class="ds-thread-count" data-thread-key="{{post.id}}"></span>
+          </h4>
+          <div class="am-list-item-text">{{ post.content  | | split:'<!--break-->' | first }}</div>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

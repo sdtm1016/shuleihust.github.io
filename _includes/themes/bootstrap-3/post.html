@@ -5,7 +5,8 @@
 <div class="row post-full">
   <div class="col-xs-12">
     <div class="date">
-      <span>{{ page.date | date_to_long_string }}</span>
+      <span class="post-date">{{ page.date | date:"%Y-%m-%d" }}</span>
+      <span class="ds-thread-count" data-thread-key="{{page.id}}"></span>
     </div>
     <div class="content">
       {{ content }}

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+  <meta name="author" content="{{ site.author.name }}">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <link rel="alternate icon" type="image/png" href="http://amazeui.org/i/favicon.png">
+  <link rel="stylesheet" href="http://cdn.amazeui.org/amazeui/1.0.0-beta1/css/amui.all.min.css"/>
+  <style>
+    @media only screen and (min-width: 1200px) {
+      .blog-g-fixed {
+        max-width: 1200px;
+      }
+    }
+
+    @media only screen and (min-width: 641px) {
+      .blog-sidebar {
+        font-size: 1.4rem;
+      }
+    }
+    .blog-main {
+      padding: 20px 0;
+    }
+    .blog-title {
+      margin: 10px 0 5px 0;
+    }
+    .blog-meta {
+      font-size: 14px;
+      margin: 10px 0 20px 0;
+      color: #222;
+    }
+    .blog-meta a {
+      color: #27ae60;
+    }
+    .blog-pagination a {
+      font-size: 1.4rem;
+    }
+    .blog-team li {
+      padding: 4px;
+    }
+    .blog-team img {
+      margin-bottom: 0;
+    }
+    .blog-footer {
+      padding: 10px 0;
+      text-align: center;
+    }
+    .d_tags a {
+      opacity: 0.80;
+      filter: alpha(opacity=80);
+      color: #fff;
+      background-color: #428BCA;
+      display: inline-block;
+      margin: 0 5px 5px 0;
+      padding: 0 6px;
+      line-height: 21px;
+      }
+    .d_tags{padding: 12px 13px 10px 15px;}
+    .d_tags a:nth-child(9n){background-color: #4A4A4A;}
+    .d_tags a:nth-child(9n+1){background-color: #428BCA;}
+    .d_tags a:nth-child(9n+2){background-color: #5CB85C;}
+    .d_tags a:nth-child(9n+3){background-color: #D9534F;}
+    .d_tags a:nth-child(9n+4){background-color: #567E95;}
+    .d_tags a:nth-child(9n+5){background-color: #B433FF;}
+    .d_tags a:nth-child(9n+6){background-color: #00ABA9;}
+    .d_tags a:nth-child(9n+7){background-color: #B37333;}
+    .d_tags a:nth-child(9n+8){background-color: #FF6600;}
+
+    .post-detail{
+      font-size: 12px;
+      margin-top:0px;
+    }
+    .post-detail>span{
+      margin-right:20px;
+    }
+    .ds-top-threads>li:last-child{
+      display: none;
+    }
+  </style>
+</head>
+<body>
+<header class="am-topbar">
+  <h1 class="am-topbar-brand">
+    <a href="{{ HOME_PATH }}">{{ site.title }}</a>
+  </h1>
+
+  <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only" data-am-collapse="{target: '#doc-topbar-collapse'}"><span class="am-sr-only">导航切换</span> <span class="am-icon-bars"></span></button>
+
+  <div class="am-collapse am-topbar-collapse" id="doc-topbar-collapse">
+    <ul class="am-nav am-nav-pills am-topbar-nav">
+      <li><a href="/home.html" target="_blank">首页</a></li>
+      <li><a href="{{site.repo_path}}" target="_blank">项目</a></li>
+      <li class="am-active"><a href="{{ HOME_PATH }}">博客</a></li>
+    </ul>
+
+    <form class="am-topbar-form am-topbar-left am-form-inline am-topbar-right" role="search">
+      <div class="am-form-group">
+        <input type="text" class="am-form-field am-input-sm" placeholder="搜索文章">
+      </div>
+      <button type="submit" class="am-btn am-btn-default am-btn-sm">搜索</button>
+    </form>
+
+  </div>
+</header>
+
+<div class="am-g am-g-fixed blog-g-fixed">
+  <div class="col-md-8" id="content">
+  {{ content }}
+  </div>
+
+  <div class="col-md-4 blog-sidebar">
+    <div class="am-panel-group">
+      <section class="am-panel am-panel-default">
+        <div class="am-panel-hd">关于我们</div>
+        <div class="am-panel-bd">
+          <p><b>3T工作室</b>&nbsp;&nbsp;是一个针对中小企业服务的专业工作室。根据不同客户的商业发展目标和需求帮助广大企业开拓网上销售渠道。主要服务有网站建设，网站制作，网站优化(seo/sem)，网站改版。</p>
+          <p>作为程序员中的程序员，我们对未来充满美好的期望，我们期望用自己的技术改变自己的生活。如果您有建站方面的需求，请果断联系我们，<b>我们会以最贴心的服务和最满意的质量回报您</b><br>咨询请联系<b>QQ:578968229</b></p>
+          <a class="am-btn am-btn-success am-btn-sm" href="{{ BASE_PATH }}{{site.home_path}}">查看更多 →</a>
+        </div>
+      </section>
+
+      <section class="am-panel am-panel-default">
+        <div class="am-panel-hd">标签世界</div>
+        <ul class="am-list blog-list d_tags">
+          {% for tag in site.tags %}
+            <a href="javascript:;" onclick="showTag('{{ tag[0] }}')">
+            {{ tag[0] }} ({{ tag[1].size }}) 
+            </a>
+          {% endfor %}
+        </ul>
+      </section>
+
+      <section class="am-panel am-panel-default">
+        <div class="am-panel-hd">热评文章</div>
+        <ul  class="ds-top-threads am-list blog-list" data-range="weekly" data-num-items="5">
+        </ul>
+      </section>
+
+      <section class="am-panel am-panel-default">
+        <div class="am-panel-hd">团队成员</div>
+        <div class="am-panel-bd">
+          <ul class="sm-block-grid-4 blog-team">
+            <li><img class="am-thumbnail" src="https://avatars1.githubusercontent.com/u/4877029?v=2&u=1a3c5bfbbf38f1b21bc90b7fc7edd7adc54ffbf5&s=140" alt="shuleihust" title="shuleihust"/></li>
+            <li><img class="am-thumbnail" src="https://avatars3.githubusercontent.com/u/2833137?v=2&s=400" alt="markyun" alt="markyun"/></li>
+            <li><img class="am-thumbnail" src="https://avatars0.githubusercontent.com/u/779386?v=2&s=460" alt="wangchao" title="wangchao"/></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="am-panel am-panel-default">
+        <div class="am-panel-hd">最近访客</div>
+        <div class="am-panel-bd">
+        <ul class="ds-recent-visitors sm-block-grid-4 blog-team"></ul> 
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+</div>
+
+<footer class="blog-footer">
+  <p>3T工作室<br/><small>江苏省南京市新世界中心A座</small></p>
+</footer>
+
+<script src="http://cdn.amazeui.org/zepto/1.1.4/zepto.min.js"></script>
+<script src="http://cdn.amazeui.org/amazeui/1.0.0-beta1/js/amui.min.js"></script>
+
+<script type="text/javascript">
+  function showTag(tagStr) {
+    $.getJSON("../post.json",
+    function(data) {
+      $('#content').empty();
+      var content = '<div data-am-widget="list_news" class="am-list-news am-list-news-default"><div class="am-list-news-hd am-cf"><h2>分类：' + tagStr + '</h2></div><div class="am-list-news-bd"><ul class="am-list">';
+      var count = 0;
+      $.each(data,
+      function(i, item) {
+        $.each(item.tags,
+        function(j, tag) {
+          if (tag == tagStr) {
+            content+='<li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left"><div class="am-col col-sm-4 am-list-thumb" style="max-width: 100px;float: left;"><a href="'+item.url+'"><img src="http://img5.douban.com/lpic/o636459.jpg" alt=""/></a></div><div class="am-col col-sm-12 am-list-main" style="position: absolute;padding-left: 110px;"><h3 class="am-list-item-hd"><a href="'+item.url+'">'+item.title+'</a></h3><h4 class="am-list-item-hd post-detail"><span class="post-date">'+item.date+'</span><span class="ds-thread-count" data-thread-key="'+item.id+'"></span></h4><div class="am-list-item-text">'+item.content+'</div></div></li>';
+            count++;
+          }
+        });
+      });
+      if (count > 0) {
+        content += "</ul></div></div>";
+        postNumStr = "<span>（" + count + "篇文章）</span>";
+        $('#content').append(content);
+        $('#content>h2').append(postNumStr);
+        $('#content li').each(function(i,n){
+            var commentEl=$(n).find('.ds-thread-count');
+            var threadKey=commentEl.data('thread-key');
+            $.getJSON("http://api.duoshuo.com/threads/counts.json?short_name=shuleihust&threads="+threadKey,function(data){
+              var comments=data.response[threadKey].comments;
+                if(comments){
+                    commentEl.text(response.options.comments_multiple.replace('{num}',comments));
+                }else{
+                    commentEl.text(response.options.comments_zero);
+                }
+            });
+        });
+      }
+    });
+  }
+</script>
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+  <script type="text/javascript">
+  var duoshuoQuery = {short_name:"shuleihust"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0] 
+       || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+    </script>
+  <!-- 多说公共JS代码 end -->
+</body>
+</html>

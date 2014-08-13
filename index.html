@@ -12,18 +12,18 @@ tagline: tagline
       {% for post in site.posts limit:30 %}
       <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left single-post">
         <div class="am-col col-sm-4 am-list-thumb" style="max-width: 100px;float: left;">
-          <a href="{{ BASE_PATH }}{{ post.url }}">
-            <img src="{{ ASSET_PATH }}/i/default-thumb.png" alt="文章缩略图"
+          <a href="{{ site.url }}{{ post.url }}">
+            <img src="/assets/themes/amaze/i/default-thumb.png" alt="文章缩略图"
             />
           </a>
         </div>
         <div class="am-col col-sm-12 am-list-main" style="position: absolute;padding-left: 110px;">
           <h3 class="am-list-item-hd">
-            <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+            <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
           </h3>
           <h4 class="am-list-item-hd post-detail">
             <span class="post-date">{{ post.date | date:"%Y-%m-%d" }}</span>
-            <span class="ds-thread-count" data-thread-key="{{ BASE_PATH }}{{post.id}}"></span>
+            <span class="ds-thread-count" data-thread-key="{{ site.url }}{{post.id}}"></span>
           </h4>
           <div class="am-list-item-text">{{ post.content  | | split:'<!--break-->' | first }}</div>
         </div>

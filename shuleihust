@@ -1,0 +1,1446 @@
+[33mcommit e49254c2abe2996fe61e9f670a36ca1af406edd5[m
+Author: shuleihust <578968229@qq.com>
+Date:   Wed Aug 13 22:45:14 2014 +0800
+
+    haha
+
+[33mcommit ec84557345c155aac1663eae4418f78ead418fa6[m
+Merge: a42bfe0 8877b96
+Author: shuleihust <578968229@qq.com>
+Date:   Wed Aug 13 22:39:23 2014 +0800
+
+    Merge branch 'master' of github.com:shuleihust/shuleihust.github.io
+
+[33mcommit a42bfe0234b9774430687102581f4546143f0c80[m
+Author: shuleihust <578968229@qq.com>
+Date:   Wed Aug 13 22:31:21 2014 +0800
+
+    haha
+
+[33mcommit 8877b96dfa0d70de10810540df21add04a3e567e[m
+Author: shuleihust <578968229@qq.com>
+Date:   Wed Aug 13 20:10:27 2014 +0800
+
+    edit something
+
+[33mcommit fe1be9ddaf1dd054d8c2a96e03ee4d3ad92587e1[m
+Author: shuleihust <578968229@qq.com>
+Date:   Wed Aug 13 19:07:20 2014 +0800
+
+    edit members
+
+[33mcommit 7c096bd8d46da89d971650097c1f42f2b614e3f0[m
+Author: shuleihust <578968229@qq.com>
+Date:   Wed Aug 13 17:39:35 2014 +0800
+
+    aaaaaaaaaa
+
+[33mcommit 9661542d2f088af038db5a48e56ebbc4b43c63e5[m
+Author: shuleihust <578968229@qq.com>
+Date:   Wed Aug 13 17:21:12 2014 +0800
+
+    test
+
+[33mcommit 63bf0fa01e2a780b1b092a4af6a59fde0b084195[m
+Author: shuleihust <578968229@qq.com>
+Date:   Wed Aug 13 17:15:57 2014 +0800
+
+    edit flag load
+
+[33mcommit 498bdcff9a5bec93b53d7c54e21338ede16060ff[m
+Author: shuleihust <578968229@qq.com>
+Date:   Wed Aug 13 15:27:01 2014 +0800
+
+    Update README.md
+
+[33mcommit ff66752d857029a8a99b89a0e54a1b5b608a1840[m
+Author: shuleihust <578968229@qq.com>
+Date:   Wed Aug 13 06:04:03 2014 +0800
+
+    djk
+
+[33mcommit ff2a4341f2ea075cfc1fdc484105d20c253cb357[m
+Author: shuleihust <578968229@qq.com>
+Date:   Wed Aug 13 06:00:44 2014 +0800
+
+    Delete 2014-08-13-test1md.md
+
+[33mcommit 8f32bd0bedab6cf453917c597016296cd275f572[m
+Author: shuleihust <578968229@qq.com>
+Date:   Wed Aug 13 05:52:01 2014 +0800
+
+    sdgsd
+
+[33mcommit 4f19ee76b91fdbeab0c39f21b9666c0be8d1a873[m
+Author: shuleihust <578968229@qq.com>
+Date:   Wed Aug 13 05:39:59 2014 +0800
+
+    Delete 2011-12-29-jekyll-introduction.md
+
+[33mcommit 6179fb6cef80cbd8b930312d54a5f1a18bf3df9c[m
+Author: shuleihust <578968229@qq.com>
+Date:   Wed Aug 13 05:39:13 2014 +0800
+
+    Delete index.md
+
+[33mcommit ac1843de72aa739368aeef27299997a5472319bf[m
+Author: shuleihust <578968229@qq.com>
+Date:   Wed Aug 13 05:28:11 2014 +0800
+
+    second commit
+
+[33mcommit 938302565944bf566e98e7e925347f1be22993a6[m
+Author: shuleihust <578968229@qq.com>
+Date:   Sun Aug 10 05:31:41 2014 +0800
+
+    first commit
+
+[33mcommit bc29acd4815ddd8c499fdc401fc6e7a8954a96b6[m
+Author: shuleihust <578968229@qq.com>
+Date:   Sun Aug 10 05:28:55 2014 +0800
+
+    add new content
+
+[33mcommit 1f3596c4459e7386ba0283f88e899473ab9507c7[m
+Merge: 6c4bbd9 cdf53c8
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Sun May 4 21:39:14 2014 -0700
+
+    Merge pull request #197 from RichardLitt/master
+    
+    Bootstrap 3
+
+[33mcommit 6c4bbd9f6e996205ac1d6e6d2682b454a450bcda[m
+Merge: 2f6c40b a53b4a9
+Author: Marshall Shen <shen.marshall@gmail.com>
+Date:   Thu Jan 2 10:44:36 2014 -0800
+
+    Merge pull request #198 from parnmatt/patch-1
+    
+    Remove empty quotes when category is empty.
+
+[33mcommit a53b4a95dc501a27f402e440b0e8f28cd7b963ab[m
+Author: Matthew Parnell <matt@parnmatt.co.uk>
+Date:   Wed Jan 1 23:41:04 2014 +0000
+
+    Simpler logic to category patch
+    
+    Replace single line with cleaner, more readable Ruby.
+
+[33mcommit 2fc2e068e6202e3a55e65807cf7d0ca7e851a765[m
+Author: Matthew Parnell <matt@parnmatt.co.uk>
+Date:   Wed Jan 1 20:37:21 2014 +0000
+
+    Remove empty quotes when category is empty.
+    
+    When category = ""
+    
+    Should print "category: " to file, current behaviour prints "category:
+    \"\"".
+    
+    Latter creates an actual category, with a blank title. All posts created
+    since this update, without a category explicitly written in `rake`
+    command, or post directly edited, will belong to this category.
+
+[33mcommit cdf53c890eda659960ad237d56857940ba0054b2[m
+Author: Richard Littauer <richard.littauer@gmail.com>
+Date:   Thu Dec 26 14:18:04 2013 -0500
+
+    Created a Bootstrap-3 theme, readded the twitter theme, made bootstrap-3 default.
+
+[33mcommit 4f98b59d9458aa79bbb13f82d9e42a86bdf523f3[m
+Author: Richard Littauer <richard.littauer@gmail.com>
+Date:   Thu Dec 26 14:09:21 2013 -0500
+
+    Removed local respond.js given that CDN does work, just not from file://
+
+[33mcommit 94220cba1fb74486a660dbd77385e5a774c92e4e[m
+Author: Richard Littauer <richard.littauer@gmail.com>
+Date:   Wed Dec 25 13:47:54 2013 -0500
+
+    Added some custom Jekyll styling, because.
+
+[33mcommit eb499c2248e3ccbde48d398caec326b51634df8b[m
+Author: Richard Littauer <richard.littauer@gmail.com>
+Date:   Wed Dec 25 13:47:43 2013 -0500
+
+    Fixed sticky footer.
+
+[33mcommit 96dfd7f11e62f6aee9f558e895288acde71cd91c[m
+Author: Richard Littauer <richard.littauer@gmail.com>
+Date:   Wed Dec 25 13:29:43 2013 -0500
+
+    Possibly completed everything, actually.
+
+[33mcommit 531b59cb1c3d6bd2e96f15a9d2fb5cc3e046f24b[m
+Author: Richard Littauer <richard.littauer@gmail.com>
+Date:   Wed Dec 25 12:33:35 2013 -0500
+
+    Added in respond.min.js, removed old html5shiv as using the cdn that getbootstrap.com uses should work. Response.min.js doesn't work from CDN.
+
+[33mcommit 0872d7e5a54d986183d03e0290f405db84d1920e[m
+Author: Richard Littauer <richard.littauer@gmail.com>
+Date:   Wed Dec 25 12:29:01 2013 -0500
+
+    Added in html5shiv manually. IE6-7 no longer supported. Couldn't find a good CDN for this, google usage suggests downlaoding it. 'printshiv' This is for printed elements for IE 8.
+
+[33mcommit 202970b3bacad1c174cfcd4867675fa531fa39ad[m
+Author: Richard Littauer <richard.littauer@gmail.com>
+Date:   Wed Dec 25 12:17:57 2013 -0500
+
+    Loaded in new CSS, JS, glyphicons, added in IE Edge, testing this commit.
+
+[33mcommit 2f6c40b8b2c8321ca3c303b41aed066b765a0a46[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Thu Oct 17 19:22:32 2013 -0700
+
+    Update readme to point to new separate documentation repository.
+
+[33mcommit 10b4ad05698ba031550050e48259670d17f3e920[m
+Merge: 89530f6 ee1d6b1
+Author: Marshall Shen <shen.marshall@gmail.com>
+Date:   Wed Oct 9 14:50:47 2013 -0700
+
+    Merge pull request #189 from marshallshen/master
+    
+    fix parsing error
+
+[33mcommit ee1d6b14384345cc5acfce1a7f390102ce6e1ddb[m
+Author: Marshall Shen <mshen@groupon.com>
+Date:   Wed Oct 9 16:48:09 2013 -0500
+
+    fix parsing error
+
+[33mcommit 89530f6a7a4be07849f1351317e6536cb5e8b4a3[m
+Merge: fed94a2 56bc767
+Author: Marshall Shen <shen.marshall@gmail.com>
+Date:   Mon Sep 23 10:47:38 2013 -0700
+
+    Merge pull request #183 from Miguelos/patch-2
+    
+    Update 'rake post' to support category on command line
+
+[33mcommit 56bc767a53415619cc99fbadd76abf2391f571fd[m
+Author: Miguel <me@miguelos.me>
+Date:   Sat Sep 7 19:16:25 2013 +0100
+
+    Update 'rake post' to support category on command line
+    
+    Updated comment.
+    Creating a post with multiple tags require no whitespaces between tags:
+     rake post title="A Title" [date="2012-02-09"] ... tags=[tag1,tag2]
+    or quotes:
+     rake post title="A Title" [date="2012-02-09"] ... tags="[tag1, tag2]"
+
+[33mcommit fed94a262d9e4e6551443cd5bd0d3efba2d70e01[m
+Author: Marshall Shen <shen.marshall@gmail.com>
+Date:   Wed Sep 4 11:34:24 2013 -0500
+
+    Update History.markdown
+
+[33mcommit dea31e73cfedf9e7880931f3de8d5329d0ae3501[m
+Merge: 010d99f dbdf47a
+Author: Marshall Shen <shen.marshall@gmail.com>
+Date:   Wed Sep 4 09:33:35 2013 -0700
+
+    Merge pull request #179 from kvannotten/patch-1
+    
+    Updated Rakefile :preview command to new Jekyll standards
+
+[33mcommit dbdf47a9767da8851ed996d4d2d407009db177d6[m
+Author: Kristof Vannotten <kristof@vannotten.be>
+Date:   Tue Sep 3 13:41:00 2013 +0800
+
+    Updated _config.yml => removed auto property, deprecated in the latest jekyll
+
+[33mcommit 28c3ba7a4885a2706216d335870ccc17767fec90[m
+Author: Kristof Vannotten <kristof@vannotten.be>
+Date:   Sat Aug 31 18:04:52 2013 +0800
+
+    Updated Rakefile :preview command to new Jekyll standards
+    
+    jekyll --server --auto is deprecated and has been replaced with jekyll serve(r) -w(atch)
+
+[33mcommit 010d99fb5d1099de13621daade7bb51effe87647[m
+Merge: f667a9b af9c45d
+Author: Jade <plusjade@gmail.com>
+Date:   Thu Aug 15 14:12:05 2013 -0700
+
+    Merge pull request #171 from coding46/patch-1
+    
+    [FIX] Fix tags output in :post task
+
+[33mcommit f667a9b139c872e41d8cb18479d8fa4d49d906e0[m
+Merge: 46f4a26 4a934b0
+Author: Jade <plusjade@gmail.com>
+Date:   Thu Aug 15 14:10:53 2013 -0700
+
+    Merge pull request #172 from coding46/patch-2
+    
+    [FIX] Fixed small typo in comment
+
+[33mcommit 4a934b023ee46b03d37f16277c95b9ae10cb52a0[m
+Author: G. Bodenschatz <coding@46halbe.de>
+Date:   Thu Aug 15 23:05:55 2013 +0200
+
+    [FIX] Fixed small typo in comment
+
+[33mcommit af9c45d973f88cd7d9f3e43db2455c67336aacc2[m
+Author: G. Bodenschatz <coding@46halbe.de>
+Date:   Thu Aug 15 22:20:36 2013 +0200
+
+    [FIX] Fix tags output in :post task
+
+[33mcommit 46f4a2682d07f37d0ac0c9150bf375503e0b4797[m
+Merge: d25c492 8507c4c
+Author: Marshall Shen <shen.marshall@gmail.com>
+Date:   Wed Aug 14 08:03:54 2013 -0700
+
+    Merge pull request #169 from marshallshen/create_markdown
+    
+    Create markdown
+
+[33mcommit d25c49278b4b7c3df6167ad3b03f1f35a392e600[m
+Merge: 7501cf3 50aa9b6
+Author: Marshall Shen <shen.marshall@gmail.com>
+Date:   Tue Aug 13 18:15:26 2013 -0700
+
+    Merge pull request #170 from markijbema/patch-1
+    
+    Fixed outdated link
+
+[33mcommit 50aa9b60c23470cbfe6fc2d26b92148296d3482e[m
+Author: Mark IJbema <markijbema@gmail.com>
+Date:   Sat Aug 10 22:01:40 2013 +0200
+
+    Fixed outdated link
+
+[33mcommit 8507c4ca3410ba473561c5bc9517fbf0ef5bf5a7[m
+Merge: cd50618 7501cf3
+Author: Marshall Shen <mshen@groupon.com>
+Date:   Tue Aug 6 14:05:01 2013 -0500
+
+    Merge branch 'master' of github.com:plusjade/jekyll-bootstrap into create_markdown
+
+[33mcommit cd50618b5f2202391b72a715ff28b0748ad203ea[m
+Author: Marshall Shen <mshen@groupon.com>
+Date:   Tue Aug 6 14:04:52 2013 -0500
+
+    add History markdown
+
+[33mcommit 7501cf386df7a35df8ac8b6098f56508fd5f1c03[m
+Merge: 2c98321 c2d70e5
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Fri Jul 26 21:22:50 2013 -0700
+
+    Merge add-drafts. closes #167
+
+[33mcommit c2d70e5c577d2602f58e9e4372cc62640ba789e9[m
+Author: Marshall Shen <mshen@groupon.com>
+Date:   Tue Jul 23 21:29:55 2013 -0500
+
+    add draft feature
+
+[33mcommit 2da62d449df482524570e5fb9d20748357bc7a24[m
+Author: Romain Sertelon <bluepyth@gmail.com>
+Date:   Tue Sep 11 14:43:38 2012 +0200
+
+    Adds Piwik Analytics Provider
+
+[33mcommit ff69d3fc3837c7670065bd23bf01452177148c16[m
+Author: Daniel Fone <daniel@fone.net.nz>
+Date:   Sun May 19 23:02:53 2013 +1200
+
+    Better exception handling
+    
+    You probably only want to rescue `ArgumentError` here, but certainly nothing more than the default `StandardError`. Rescuing `Exception` can lead to very strange behaviour.
+    
+    See:
+    http://www.mikeperham.com/2012/03/03/the-perils-of-rescue-exception/
+    http://stackoverflow.com/a/10048406/1848
+
+[33mcommit 0766ee273d3892f68ec13617b6fc3a4f31b7f28c[m
+Author: Pierre du Plessis <pierre@pcservice.co.za>
+Date:   Fri Apr 19 18:52:10 2013 +0300
+
+    Fix incorrect tag
+
+[33mcommit b451b2a16dd277aefc8382361e60956c1918580c[m
+Author: Marshall Shen <mshen@groupon.com>
+Date:   Tue Jul 23 21:29:55 2013 -0500
+
+    add draft feature
+
+[33mcommit a08b59da8d0891618084fdb9074d36d508e3f460[m
+Author: Marshall Shen <mshen@groupon.com>
+Date:   Tue Jul 23 14:26:54 2013 -0500
+
+    add mission
+
+[33mcommit 2c98321cdae0deea8eb2c1365d57c4604985877c[m
+Merge: 8e43db2 a6f699c
+Author: Alif Rachmawadi <subosito@gmail.com>
+Date:   Fri Jun 7 19:23:43 2013 -0700
+
+    Merge pull request #106 from BluePyth/piwik_provider
+    
+    Adds Piwik Analytics Provider
+
+[33mcommit 8e43db227ecaf79e4936c245bb11ec5b8cbce9fc[m
+Merge: c8038ab 7b88b02
+Author: Alif Rachmawadi <subosito@gmail.com>
+Date:   Fri Jun 7 16:34:50 2013 -0700
+
+    Merge pull request #159 from danielfone/patch-1
+    
+    Better exception handling
+
+[33mcommit 7b88b02b0fd05bc8da911d92121c64221462eaef[m
+Author: Daniel Fone <daniel@fone.net.nz>
+Date:   Sun May 19 23:02:53 2013 +1200
+
+    Better exception handling
+    
+    You probably only want to rescue `ArgumentError` here, but certainly nothing more than the default `StandardError`. Rescuing `Exception` can lead to very strange behaviour.
+    
+    See:
+    http://www.mikeperham.com/2012/03/03/the-perils-of-rescue-exception/
+    http://stackoverflow.com/a/10048406/1848
+
+[33mcommit c8038abc72a0f2f976684c7d35fce99be1a6fc07[m
+Merge: df13170 7c748b6
+Author: Jade <plusjade@gmail.com>
+Date:   Fri Apr 19 09:17:23 2013 -0700
+
+    Merge pull request #146 from pierredup/patch-2
+    
+    Fix incorrect tag
+
+[33mcommit df13170a685b337877f1a424ba507bd3b1b76164[m
+Merge: 77fc4c0 c95468a
+Author: Jade <plusjade@gmail.com>
+Date:   Fri Apr 19 09:07:43 2013 -0700
+
+    Merge pull request #145 from pierredup/patch-1
+    
+    Update config to use new github domain
+
+[33mcommit 7c748b6a57de1d1bb50fd2d3e9bcc763fa0d6fde[m
+Author: Pierre du Plessis <pierre@pcservice.co.za>
+Date:   Fri Apr 19 18:52:10 2013 +0300
+
+    Fix incorrect tag
+
+[33mcommit c95468aa1eeff3933240139291cedf40fa0d8864[m
+Author: Pierre du Plessis <pierre@pcservice.co.za>
+Date:   Fri Apr 19 11:52:19 2013 +0300
+
+    Update config to use new github domain
+
+[33mcommit 77fc4c0d57f6a08863f2b808a736fb45b307d98a[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Sun Feb 24 01:51:14 2013 -0800
+
+    release 0.3.0
+
+[33mcommit d82396e81fc5e067df4cee1fdd32edc8d26b6111[m
+Merge: 8dc291a 0dde354
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Sun Feb 24 01:48:13 2013 -0800
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 0dde354ce1522da98eec81256300628ebc02de23[m
+Merge: 0f00bf5 aeac709
+Author: Jade <plusjade@gmail.com>
+Date:   Sun Feb 24 01:46:56 2013 -0800
+
+    Merge pull request #107 from opie4624/patch-1
+    
+    Update 'rake post' to support tags on command line
+
+[33mcommit 8dc291a130e776440e1fdb43bbc56c8d0aefeb45[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Sun Feb 24 01:39:42 2013 -0800
+
+    Reformat copyright notice as per advice from @allolex.
+    
+    Closes #78
+
+[33mcommit aa605b91badcea393f20572f035b18cf75bb9335[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Sun Feb 24 01:35:44 2013 -0800
+
+    License should be MIT.
+
+[33mcommit 29eae1f6013fc7854c059d708cf64cb8240b999d[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Sun Feb 24 01:23:01 2013 -0800
+
+    Upgrade to twitter bootstrap 2.2.2 plus new styling.
+
+[33mcommit afec1ee1d2b0664ae139999d5254f19a14d93d71[m
+Author: Liu Lantao <liulantao@gmail.com>
+Date:   Wed Feb 13 11:44:17 2013 +0800
+
+    add support for RSS feed.
+    
+    add link tag in page header, to support subuscribe rss/atom feed in browsers.
+
+[33mcommit 4d45997ef14bd080653b7208ed06787acbd2227f[m
+Author: Marko Bauhardt <marko.bauhardt@googlemail.com>
+Date:   Tue Oct 16 21:53:25 2012 +0200
+
+    update twitter bootstrap css and png's to version 2.1.1
+
+[33mcommit 0f00bf5c1a8eff38432da7fbf79c9601f0414014[m
+Merge: 1cd2592 5af2512
+Author: Jade <plusjade@gmail.com>
+Date:   Sun Feb 24 00:02:00 2013 -0800
+
+    Merge pull request #81 from xuhdev/fix-theme-install
+    
+    Fix that theme will not be overwritten if exists.
+
+[33mcommit 1cd2592a2fc4183d753c274eba30f96059b99a21[m
+Merge: 2001b5c d0e9992
+Author: Jade <plusjade@gmail.com>
+Date:   Sun Feb 24 00:00:08 2013 -0800
+
+    Merge pull request #77 from geon/master
+    
+    20011 should be 2011 in the file structure tree.
+
+[33mcommit 2001b5cf8433c0825e588ca5c2da3d84f238ae3d[m
+Merge: ef0d8a0 c84ac28
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Sat Feb 23 23:54:35 2013 -0800
+
+    Fix merge conflict.
+
+[33mcommit c84ac281a3b81915794ca082371337490a1a4248[m
+Merge: 162a85d 10add52
+Author: Jade <plusjade@gmail.com>
+Date:   Sat Feb 23 23:35:37 2013 -0800
+
+    Merge pull request #102 from techotaku/jb-development
+    
+    Giving every post/page the "smarter" custom tagline
+
+[33mcommit ef0d8a06b39437b72be64f43bb4f2b0210805f4b[m
+Merge: 4039de7 f2b4639
+Author: Jade <plusjade@gmail.com>
+Date:   Sat Feb 23 23:32:29 2013 -0800
+
+    Merge pull request #110 from lorensr/patch-1
+    
+    Typo in _config.yml
+
+[33mcommit 4039de780f5c8a200bf0a8dd0319c1f3ed04d583[m
+Merge: fcff62c b74f290
+Author: Jade <plusjade@gmail.com>
+Date:   Sat Feb 23 23:27:47 2013 -0800
+
+    Merge pull request #74 from lzcabrera/post_update
+    
+    Post update
+
+[33mcommit fcff62cca4d2b0831f71a79b7bc2214ac9512c98[m
+Merge: c676106 5a77785
+Author: Jade <plusjade@gmail.com>
+Date:   Sat Feb 23 23:23:08 2013 -0800
+
+    Merge pull request #132 from jkuchta/master
+    
+    Fully take advantage of bootstrap awesomeness but responsive
+
+[33mcommit 5a77785114d1ecb545b3fd7f26e5bcaef5415f1b[m
+Author: Jeff Kuchta <jkuchta@gmail.com>
+Date:   Fri Feb 22 23:27:15 2013 -0700
+
+    Make it responsive out of the gate
+
+[33mcommit c676106f1b6b5f4daf4b6cf7b326c9223005338c[m
+Merge: c06cbf3 df99e39
+Author: Jade <plusjade@gmail.com>
+Date:   Tue Jan 29 01:34:27 2013 -0800
+
+    Merge pull request #123 from djoos/master
+    
+    Display current year via javascript
+
+[33mcommit df99e392132a4f3e49afcd0b49cf44f0a87b0e5d[m
+Author: David Joos <david.joos@gmail.com>
+Date:   Tue Jan 29 09:27:13 2013 +0000
+
+    jekyll current time (when you run the jekyll command)
+
+[33mcommit c87f664391110d4fd3ab7a102b9d72a259d3295a[m
+Author: David Joos <david.joos@gmail.com>
+Date:   Mon Jan 7 20:26:14 2013 +0000
+
+    Display current year via javascript
+
+[33mcommit c06cbf3f84aa31cb4fc3f42ec670e8cb0cca5ce0[m
+Merge: 9c00269 fecaedc
+Author: Jade <plusjade@gmail.com>
+Date:   Wed Jan 2 11:35:43 2013 -0800
+
+    Merge pull request #122 from awkerney/master
+    
+    Typo Correction
+
+[33mcommit fecaedc716da7bc52672bdeb19d9d044ecb9dbc0[m
+Author: Adam Kerney <adam.w.kerney@gmail.com>
+Date:   Tue Jan 1 12:02:02 2013 -0600
+
+    Fixed a typo in _config.yml
+
+[33mcommit f2b463990991f65d6f5f3d3144597fa92d7d3fcc[m
+Author: Loren Sands-Ramshaw <lorensr@gmail.com>
+Date:   Thu Oct 18 03:13:31 2012 -0300
+
+    Update _config.yml
+    
+    typo
+
+[33mcommit aeac709cbfc80f076c7a4e964d645b3ead7ef41b[m
+Author: Andrew Kraut <akraut@gmail.com>
+Date:   Sun Sep 16 23:35:28 2012 -0700
+
+    Update 'rake post' to support tags on command line
+
+[33mcommit a6f699c71b1d43847f4aa0e11b09fc679804e8ce[m
+Author: Romain Sertelon <bluepyth@gmail.com>
+Date:   Tue Sep 11 14:43:38 2012 +0200
+
+    Adds Piwik Analytics Provider
+
+[33mcommit 10add5202d204489f7f7a015b73da4c4c1413693[m
+Author: Ian Li <i@techotaku.net>
+Date:   Thu Aug 9 03:31:29 2012 +0800
+
+    Giving every post/page the "smarter" custom tagline (just like page.html in master branch).
+    P.S. In master branch, every page has "smarter"  custom tagline but every post haven't.
+
+[33mcommit 5af25124382dc84d4f0ebefca87dbc1f5ed75fc3[m
+Author: Hong Xu <xuhdev@gmail.com>
+Date:   Mon Apr 16 20:52:27 2012 +0800
+
+    Fix that theme will not be overwritten if exists.
+    
+    When some theme exists, "rake theme:install" will not overwrite the
+    previous theme files, even if we answer "y" to the "Do you want to
+    overwrite?" question. This commit fixes this.
+
+[33mcommit d0e9992d91900c5a80f45421ac7b722f472dec83[m
+Author: Victor Widell <victor@topmost.se>
+Date:   Fri Apr 6 19:29:55 2012 +0300
+
+    Fixed a malformed date in the sample post.
+
+[33mcommit b74f290698b7e615fa8d87a731a640bcc55bbae3[m
+Author: Laura Cabrera <lzcabrera@gmail.com>
+Date:   Sun Apr 1 23:06:53 2012 -0700
+
+    added dynamic tagline to posts and conditional display statement on partial view
+
+[33mcommit 93e0c465fd7c24d20e5b4de31d8c550edd77e1e1[m
+Author: Laura Cabrera <lzcabrera@gmail.com>
+Date:   Sun Apr 1 20:14:23 2012 -0700
+
+    update to post template on twitter theme: added dynamic page description
+
+[33mcommit 9c0026973bf54324304ed1b917bb227603d87071[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Sat Mar 24 13:27:43 2012 -0700
+
+    bump to 0.2.13
+
+[33mcommit cbfb9ca9ccf6e8da6a9cebd58317482d3628ce5f[m
+Author: Martijn Pieters <mj@zopatista.com>
+Date:   Fri Mar 23 23:01:22 2012 +0100
+
+    Only list pages with a title. #69
+    
+    This skips the page.html, default.html, what-have-you-not pages that should not be listed in this list anyway, which otherwise result in empty bullet points.
+
+[33mcommit e3e849e6e3232cd9df30ce64880095b7b002ae9c[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Sat Mar 24 13:00:38 2012 -0700
+
+    Show tagline only if set. credit to @sway as seen in pull #48
+
+[33mcommit cc7a99f390a464e4d03bc5cb55d4e8ed42d10e34[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Sat Mar 24 12:52:28 2012 -0700
+
+    styling
+
+[33mcommit 1aa9527657ca44cd637342ff2bd3610e92e388a5[m
+Author: Lukas Knuth <mr.luke.187@googlemail.com>
+Date:   Tue Mar 20 22:49:55 2012 +0100
+
+    Added the description-variable in the Rakefile to include it in newly created posts/pages
+
+[33mcommit 59d6a7b79e7a9bfce3912a2e2f9a9132e9f2afd5[m
+Author: Kori Roys <kori@koriroys.com>
+Date:   Sun Mar 11 14:38:29 2012 -0500
+
+    fixed extra h hanging out in atomfeed ids #60
+
+[33mcommit 162a85dfb6f2801840b00ae995adeb322487132b[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Wed Mar 7 14:52:22 2012 -0800
+
+    Bump to 0.2.9
+
+[33mcommit 6d97712a41efa1cc0a68751dc776dd8c063befdb[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Wed Mar 7 14:47:30 2012 -0800
+
+    Fix typo
+
+[33mcommit 9a69c8ed2470d8ff74736a45c8dbc42786ecbceb[m
+Author: Alistair Hutchison <github@alistairh.co.uk>
+Date:   Wed Mar 7 13:28:24 2012 +0000
+
+    Fix for the error on post creation if date was not specified.
+
+[33mcommit cefdd4e2c3ff08a1e949e035d492387b90329c88[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Thu Mar 1 03:49:02 2012 -0800
+
+    bump to 0.2.8
+    
+    Forgot about my buddy @metalelf0 =/
+
+[33mcommit 9c1cf75ce89f9c99504a1f812a0f88fffd0430a1[m
+Author: Andrea Schiavini <andrea.schiavini@gmail.com>
+Date:   Mon Feb 13 12:54:25 2012 +0100
+
+    Added exception handling to display a user friendly message when time parse goes wrong
+
+[33mcommit 1a9411aea96ef71839de44890889dda751227e6a[m
+Author: Andrea Schiavini <andrea.schiavini@gmail.com>
+Date:   Mon Feb 13 12:50:18 2012 +0100
+
+    Forgot including require time
+
+[33mcommit 2d629f296120ffd42c3ed5f4a1b94fff15b3204d[m
+Author: Andrea Schiavini <andrea.schiavini@gmail.com>
+Date:   Mon Feb 13 12:46:46 2012 +0100
+
+    Using Time.parse to ensure date format is valid
+
+[33mcommit 02e2f861e799310994e5dfd42df479a443d9e963[m
+Author: Andrea Schiavini <andrea.schiavini@gmail.com>
+Date:   Wed Feb 8 14:45:46 2012 +0100
+
+    Added option to specify time when creating posts
+
+[33mcommit 12e41751883d7336225cfd039139137bac9eca4d[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Thu Mar 1 03:18:33 2012 -0800
+
+    bump to 0.2.7
+
+[33mcommit beb45dace2c99163952b8a60c78bc4bc50aedc97[m
+Merge: 76d3a97 7a799ce
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Thu Mar 1 01:58:57 2012 -0800
+
+    Merge remote-tracking branch 'philips/tagline-metadata' into jb-development. issue #31
+
+[33mcommit 76d3a976dc1a7d4cacbebadff50402b6259aed86[m
+Merge: b804d16 309a6f4
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Thu Mar 1 01:49:24 2012 -0800
+
+    Merge remote-tracking branch 'daz/master' into jb-development. issue #50
+
+[33mcommit b804d16d5b13da24ff1f896565ff9c466da77c2e[m
+Merge: ca37b93 f9b9cff
+Author: Jade <plusjade@gmail.com>
+Date:   Thu Mar 1 01:24:00 2012 -0800
+
+    Merge pull request #49 from koomar/jb-development
+    
+    Mixpanel as Analytics Provider for JB
+
+[33mcommit ca37b93198908805edf8efbe2d3e8045933f46f4[m
+Merge: 535aa3d 4a03980
+Author: Jade <plusjade@gmail.com>
+Date:   Thu Mar 1 01:05:11 2012 -0800
+
+    Merge pull request #40 from 3martini/windows-topic
+    
+    Windows MSYS Support
+
+[33mcommit 535aa3d0af530830f3d420f82a2523e986c7fa36[m
+Merge: c031df4 4a4a4a8
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Thu Mar 1 00:13:06 2012 -0800
+
+    Merge remote-tracking branch 'nolith/custom-rake' into jb-development. issue #33
+
+[33mcommit f9b9cff1da9d254b19b6625db0bc04fe928c4fdb[m
+Author: Abhijeet Kumar <abhijeet.kumar.ak@gmail.com>
+Date:   Thu Mar 1 00:04:51 2012 -0800
+
+    Setting google as default analytics provider
+
+[33mcommit c031df408a9d8508610655e363ce5da8811c3128[m
+Merge: 878e06c 9bb6ea1
+Author: Jade <plusjade@gmail.com>
+Date:   Wed Feb 29 23:14:43 2012 -0800
+
+    Merge pull request #44 from sstarr/patch-1
+    
+    Resolved an issue preventing disabling comments for individual pages
+
+[33mcommit 309a6f47206317e8b501672b3edd1bd2e33215e7[m
+Author: Darren Jeacocke <dazonic@me.com>
+Date:   Thu Mar 1 12:27:14 2012 +1000
+
+    Update to bootstrap 2.0.1
+
+[33mcommit af8839037cb42f6fddf75bda7e89e4adb59d3891[m
+Author: Abhijeet Kumar <abhijeet.kumar.ak@gmail.com>
+Date:   Tue Feb 28 23:22:53 2012 -0800
+
+    Adding Mixpanel as analytics provider
+
+[33mcommit 878e06c3afc6455bff9de3e8b486d4cefa8f23af[m
+Merge: 3a2df76 7956efe
+Author: Jade <plusjade@gmail.com>
+Date:   Sat Feb 25 13:02:26 2012 -0800
+
+    Merge pull request #47 from tommyblue/jb-development
+    
+    Added the wordpress_id value in Disqus code if present in the post
+
+[33mcommit 7956efeabdbd533aa3677df7f1fe640e0d591884[m
+Author: Tommaso Visconti <tommaso.visconti@gmail.com>
+Date:   Sat Feb 25 16:43:00 2012 +0100
+
+    Added the wordpress_id value in Disqus code if present in the post
+    
+    Signed-off-by: Tommaso Visconti <tommaso.visconti@gmail.com>
+
+[33mcommit 4a03980a8c5127d7b839e6e8bdad47b17b5777bc[m
+Author: Anton Vattay <3martini@gmail.com>
+Date:   Thu Feb 23 16:33:14 2012 -0500
+
+    Improved error text.
+
+[33mcommit ba5fa9bdac5d04e3d2d94b3b1d359289fffcd534[m
+Author: Anton Vattay <3martini@gmail.com>
+Date:   Thu Feb 23 16:31:35 2012 -0500
+
+    Issue #46, theme install fails on msys, permissions.
+
+[33mcommit 9bb6ea15af9661661369dd615a3655fccc5ea225[m
+Author: Simon Starr <simon@starr.cx>
+Date:   Sun Feb 19 20:09:30 2012 +0000
+
+    Small fix to check the correct variable (page.comments instead of page.JB.comments) so that disabling comments works as documented.
+
+[33mcommit 068e522ce302f948bf3144104dea738316a6ff73[m
+Author: Anton Vattay <3martini@gmail.com>
+Date:   Wed Feb 8 17:52:15 2012 -0500
+
+    Added error check for git clone system call.
+
+[33mcommit 3a2df76133171e1cd576708a60694e7d0632b671[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Mon Feb 6 13:32:44 2012 -0800
+
+    Resolve incorrect HOME_PATH/BASE_PATH settings
+    
+    JB/setup needs to account for  being falsy. Also add better usage instructions for BASE_PATH. Fixes #30
+
+[33mcommit 4a4a4a880925b1c5ff7313fe3d2853a37e7720a4[m
+Author: Alessio Caiazza <nolith@abisso.org>
+Date:   Mon Feb 6 11:05:22 2012 +0100
+
+    Loading custom rake file from _rake/*.rake
+
+[33mcommit 7a799ce004f056cf38ebdf06de56f49fcb781963[m
+Author: Brandon Philips <brandon@ifup.org>
+Date:   Sun Feb 5 15:37:49 2012 -0800
+
+    index.md: add tagline metadata
+    
+    Instead of hard coding the tagline use some metadata
+
+[33mcommit eb408084fcdb91325816ebdeeecd63538471cd3a[m
+Merge: 4c29c7e 1580fb2
+Author: Jade <plusjade@gmail.com>
+Date:   Sat Feb 4 15:06:11 2012 -0800
+
+    Merge pull request #29 from sdball/fix_getclicky_code
+    
+    fix clicky tracking image
+
+[33mcommit 1580fb232debb9549b6025a5be98a04eb0191c3c[m
+Author: Stephen Ball <sdball@gmail.com>
+Date:   Sat Feb 4 17:53:41 2012 -0500
+
+    fix clicky tracking image
+    
+    If the visitor has JavaScript disabled, clicky
+    still tracks the visit by having the browser load
+    a gif that's specific to the site id in the
+    tracking code.
+
+[33mcommit 4c29c7ed76a1f972b456f3cd158432caef5c0a81[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Fri Feb 3 16:28:43 2012 -0800
+
+    bump version : 0.2.0
+
+[33mcommit 58fa44500bededb8a744efa6ff0a111b373030c3[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Wed Feb 1 18:22:39 2012 -0800
+
+    update contributing instructions
+
+[33mcommit a86349e9bbea20653ad58bc513d5b27da14ef09b[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Wed Feb 1 18:10:42 2012 -0800
+
+    Add changelog
+
+[33mcommit 5b2cc52c18c7fb0b32adade682a019e8889b2c15[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Wed Feb 1 17:32:18 2012 -0800
+
+    Themes are tracked and installed via the packager.
+    
+    Detach themes from core JB framework.
+
+[33mcommit fdfb9c4c6fda97f213320005abff731f79ef822b[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Wed Feb 1 17:26:01 2012 -0800
+
+    Fix prompt complaining that directories already exist
+    
+    When installing from a theme package we create an array of all files to be mirrored. We need to omit directories from this array since directories are recursively created for a given file. This needlessly raised 'directory already exist' errors which was annoying. - Also make error output friendlier
+
+[33mcommit 533d840a7556217ebc8250e157de843b9a9f5f04[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Wed Feb 1 15:15:35 2012 -0800
+
+    Namespace 'switch_theme'
+    
+    Make sure to maintain backwards compatibility
+
+[33mcommit d25b40e9ea03d61be338b232c734b95a0f350e16[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Wed Feb 1 15:08:02 2012 -0800
+
+    don't track _theme_packages directory
+    
+    This should be treated as a staging directory
+
+[33mcommit 21b64c2b1c06096026c4e78763dd3467fe0f43d5[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Wed Feb 1 15:03:57 2012 -0800
+
+    Update theme packager methods
+    
+    Allow users to pass git url for a given theme to be installed. Use manifest to maintain compatibility. Add TomDoc comments
+
+[33mcommit 53a801b0e26639892b433dea6069fb8fe8030e75[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Tue Jan 31 16:19:11 2012 -0800
+
+    Implement theme installer v 0.1.0
+
+[33mcommit 683d1bec4d27dcf8cfc62babb88cdcbabf2cb957[m
+Author: James Fleeting <twofivethreetwo@gmail.com>
+Date:   Mon Jan 30 20:17:27 2012 -0600
+
+    Adding Facebook Comments
+
+[33mcommit e99e752a27f03c4a980e3f7e8a02f395573b9931[m
+Merge: 266475e 9ba7f1b
+Author: Jade <plusjade@gmail.com>
+Date:   Sun Jan 29 18:13:26 2012 -0800
+
+    Merge pull request #25 from SegFaultAX/tagline-option
+    
+    Site-wide configuration option for tagline
+
+[33mcommit 9ba7f1b3ebd91ab8a4013b45c6458f60bb8872e6[m
+Author: Michael-Keith Bernard <mkbernard.dev@gmail.com>
+Date:   Sun Jan 29 17:18:39 2012 -0800
+
+    Adding a site-wide configuration option for tagline. The twitter theme will
+    still explicitly require a per-page tagline. Adding rvmrc to gitignore for those
+    of us still using Ruby Version Manager.
+
+[33mcommit 266475ee790761eb1e0e73ffaaf3ee0422633233[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Tue Jan 24 05:58:16 2012 -0800
+
+    Remove BASE_PATH setting
+    
+    Had this set for testing purposes. Not a good idea to ship with it
+
+[33mcommit c1972379f3fa93998947f355948359c24f1307a5[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Tue Jan 24 05:46:21 2012 -0800
+
+    version 0.1.0
+
+[33mcommit 065e6edbed1ee5a33ef1916bbf620f5a745c4160[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Tue Jan 24 03:26:18 2012 -0800
+
+    'Provider' is more correct than 'engine'
+
+[33mcommit 9bd0deabd4d1dba78194b68e0d4e2c3f3853eddb[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Tue Jan 24 02:11:01 2012 -0800
+
+    Use ENV variables for switch_theme
+
+[33mcommit 240271634da68308d52790e24376f6cc95515ce5[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Mon Jan 23 05:29:18 2012 -0800
+
+    production url should be close to JB
+
+[33mcommit 9b3a325a72431e7ed243eb00343a29da3a8164ab[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Mon Jan 23 05:11:59 2012 -0800
+
+    Document and reorganize _config.yml
+
+[33mcommit 3f0579cc7c1090ccd31308807ac011e8cc56057d[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Mon Jan 23 05:00:46 2012 -0800
+
+    Place paths to main pages in JB hash
+
+[33mcommit 6c0b6c1a1b643d5ffebd2577e98b44db58df09ec[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Mon Jan 23 04:15:46 2012 -0800
+
+    Provide custom overrides to all helpers
+    
+    Now all helpers can be overridden by custom implementations without editing JB source. Just define a helper's 'engine' as 'custom' in the _config.yml file and provide a helper file of the same name in _includes/custom/. This helps users cleanly upgrade JB versions since they no longer need to edit the files directly.
+
+[33mcommit 08d59a6b60f5dc72b4854867ec7f6374764e9604[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Mon Jan 23 03:47:38 2012 -0800
+
+    Remove all filename extenstions from JB files
+
+[33mcommit 5c0a7a6dcd32449cb43d3f4b42f57e251196d9c1[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Mon Jan 23 03:28:28 2012 -0800
+
+    Update helper calls
+    
+    Use 'JB/[HELPER]' format
+
+[33mcommit 8b7998695b6a4a03ac8ecfc321a8f954b31098dc[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Mon Jan 23 03:20:58 2012 -0800
+
+    Move helpers to namespaced system
+    
+    Also do away with .html extension
+
+[33mcommit 6d0e38b3657f2631f977c6c748698e20ae939bb3[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Mon Jan 23 02:34:21 2012 -0800
+
+    Add rake task to create pages
+    
+    Usage: rake page name='about.md'
+
+[33mcommit f52ff5aa62f0b1ecebac14f8556b60550a3a8712[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Mon Jan 23 02:31:42 2012 -0800
+
+    Refactor new post rake task
+    
+    Rename from 'rake new_post' to 'rake post'. Also use environment variables over rake arguments
+
+[33mcommit 0fec345989bfdfb127d1397973d89046b03f5ced[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Mon Jan 23 01:00:58 2012 -0800
+
+    rename HOME_URL to HOME_PATH
+
+[33mcommit a1a7efaf71ca45188737a73aca11aa8e05f8502a[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Mon Jan 23 00:52:44 2012 -0800
+
+    Include 'JB/setup' in all posts and pages
+    
+    This is the only way we can have global access to dynamic liquid variables. Using site configuration is too convulated since switching themes and runing in development vs. production relies on being able to dynamically define variables
+
+[33mcommit 7ef7288a3338be437ff41c824aa4814631b88add[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Mon Jan 23 00:48:40 2012 -0800
+
+    Rename set_paths to more generic 'setup'
+    
+    This is because 'setup' will need to be included in every post/page file if we want to have access to BASE_PATH. So I figure 'setup' will be a good access path for any future inclusions we need to make
+
+[33mcommit 779afdd016d0ee406fe40f411f6c625f76a13156[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Sat Jan 21 18:15:38 2012 -0800
+
+    Regenerate 'twitter' theme
+
+[33mcommit b01624b217f54246efc999787d60ed789d5105f2[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Sat Jan 21 18:15:00 2012 -0800
+
+    Update themes and pages to new paths api
+
+[33mcommit 71278b8a3a1d7674349a4ff2b386818851a8661e[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Sat Jan 21 18:13:39 2012 -0800
+
+    Need to provide theme name via settings.yml
+
+[33mcommit 3f7fd7b4f22cc7429c2e38bac60402e5cf7e9fbc[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Sat Jan 21 18:11:37 2012 -0800
+
+    Provide path configuration in _config.yml
+
+[33mcommit fe33e5180c3a9e9ede03d36c758c47fcd1dee406[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Sat Jan 21 18:09:53 2012 -0800
+
+    Provide set_paths to all layouts
+
+[33mcommit 75fa188fa728afea2ad53925b77e317d9b134417[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Sat Jan 21 18:08:35 2012 -0800
+
+    Add ability to dynamically set url paths
+    
+    This makes GitHub Pages for projects support possible as all urls will need to call on the project's subfolder. The other important piece is that urls should resolve to root locally but be able to change when in production. LLastly this gives themes clear integration points for working with paths. (the jbcache hack just makes it so there is not unnecessary whitespace output in the source.
+
+[33mcommit 61cdb7a8031d1c99c222c4242e199a31c42dabb8[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Fri Jan 20 23:37:40 2012 -0800
+
+    Themes can define configuration data
+    
+    Themes can define a 'settings.yml' file which will get injected into the root default.html layout YAML Front Matter which can be accessed through the 'page' variable.
+
+[33mcommit 45b894f0af391c5769355ed63876fd879e82fab4[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Fri Jan 20 23:32:32 2012 -0800
+
+    Update themes to use new integration methods
+
+[33mcommit df5bedb4240a2b617f7dd2528fc35ccc5227ffed[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Fri Jan 20 23:20:22 2012 -0800
+
+    Add JB configuration hash to site config
+
+[33mcommit 7a0b1ed6897c21181b94743ca88af6332c74315e[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Fri Jan 20 23:19:17 2012 -0800
+
+    Add new Integration points for themes
+    
+    The new system will try to namespace all framework integrations with 'JB'. Integration points added in this comment are 'analytics', 'comments', and 'sharing'.
+
+[33mcommit 241a51205393082f4350bcf63fc5b8b96da26b2b[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Fri Jan 20 22:38:56 2012 -0800
+
+    fix typo
+
+[33mcommit 3802b6cf34c4ad1c6773fdb3dea4480d03687cfa[m
+Merge: 07eb4d1 b7a353c
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Fri Jan 20 22:37:27 2012 -0800
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit b7a353c7bc43953f4a94b629b9b6e187a7bfbdff[m
+Merge: dad96fb 5efb722
+Author: Jade <plusjade@gmail.com>
+Date:   Fri Jan 20 22:34:01 2012 -0800
+
+    Merge pull request #18 from jogjayr/master
+    
+    Another broken link in index.md
+
+[33mcommit 5efb7228ceae0c0534fe6cabfac1f07c13df9cb0[m
+Author: jayraj <jogjayr@gmail.com>
+Date:   Fri Jan 20 22:41:29 2012 -0500
+
+    fixed broken link for jekyll quick start on index.md. checked and made sure there are no more broken links on that page
+
+[33mcommit dad96fb115f77ec893955402d9043f88c8fa502b[m
+Merge: df13158 bb8ec4c
+Author: Jade <plusjade@gmail.com>
+Date:   Thu Jan 19 16:12:59 2012 -0800
+
+    Merge pull request #16 from xtine/patch-1
+    
+    Fixed typo: title should be "Jekyll Bootstrap"
+
+[33mcommit bb8ec4c8bcfc77de2bbe50f46ba71b78de13b8ea[m
+Author: christine <piroko@gmail.com>
+Date:   Thu Jan 19 16:02:38 2012 -0800
+
+    Fixed typo: title should be "Jekyll Bootstrap"
+
+[33mcommit df13158c21461e6e4ade92a9dccbb9b0d7c6e50f[m
+Merge: e70aa41 80595af
+Author: Jade <plusjade@gmail.com>
+Date:   Thu Jan 19 13:48:48 2012 -0800
+
+    Merge pull request #13 from jogjayr/master
+    
+    Broken link in index.md
+
+[33mcommit 80595af54f7325ce67393245b11f87a352dc1efa[m
+Author: jayraj <jogjayr@gmail.com>
+Date:   Thu Jan 19 09:49:56 2012 -0500
+
+    fixed incorrect link to jekyll bootstrap homepage
+
+[33mcommit 07eb4d166aebbedd322ac91f101967c63bd41d6c[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Thu Jan 19 04:06:04 2012 -0800
+
+    don't process rakefile, readme
+
+[33mcommit e70aa41d12e91d38c640cd0fabe622f3ea5d6890[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Wed Jan 18 16:45:24 2012 -0800
+
+    remove samples
+    
+    I guess only one sample post file will do. Also if users leave this content up, Google may not like the duplicate content =/
+
+[33mcommit bbf4212768ed6178049a66b929c92fcdcfe95ce9[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Wed Jan 18 16:43:52 2012 -0800
+
+    Add atom title and inline tag list
+
+[33mcommit 2a5c2751eb331cc46ff73d91077f210d5833dbb6[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Wed Jan 18 16:42:26 2012 -0800
+
+    Hello world
+
+[33mcommit 9d7d4eb4f946a895ee79219813355af86a17c120[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Wed Jan 18 15:35:10 2012 -0800
+
+    reorganize rakefile
+    
+    Namely standardized some logic and put config variables in hash
+
+[33mcommit 246e91a7493a2eb9e79fb6ed552ce4b7b1c633ae[m
+Merge: e26b5f7 6ee3125
+Author: Jade <plusjade@gmail.com>
+Date:   Wed Jan 18 14:42:39 2012 -0800
+
+    Merge pull request #11 from pradeep1288/master
+    
+    Created a new rake task : new_post
+
+[33mcommit e26b5f7fb325de81f23a6150a8f563b955a1fa90[m
+Merge: f3f08f9 6e70fdd
+Author: Jade <plusjade@gmail.com>
+Date:   Wed Jan 18 14:39:35 2012 -0800
+
+    Merge pull request #12 from jcn/patch-1
+    
+    Change directory tests in switch_theme task for ruby 1.8.7 compatibility
+
+[33mcommit 6e70fddae61a1de1bd7fba7aa43f7c2f0f3d8af6[m
+Author: Jesse Chan-Norris <jcn@pith.org>
+Date:   Mon Jan 16 21:20:25 2012 -0500
+
+    Change directory tests in switch_theme task to use FileTest.directory? instead of Dir.exists? for ruby 1.8.7 compatibility.
+
+[33mcommit 6ee3125c179e2f610b039b3ace9a3836a998a4ee[m
+Author: Pradeep Nayak <pradeep1288@gmail.com>
+Date:   Mon Jan 16 21:17:25 2012 +0530
+
+    adding the new_post task, with bugs fixed which were pointed out by @swanson
+
+[33mcommit f3f08f9b151da2076d8318ca1fdec97530a4d9d8[m
+Merge: a760814 812e27b
+Author: Jade <plusjade@gmail.com>
+Date:   Sun Jan 15 14:27:48 2012 -0800
+
+    Merge pull request #8 from swanson/master
+    
+    Add Atom rss feeds
+
+[33mcommit 812e27bacbc2abf42e1faf8799570fb0e14b5cf6[m
+Author: Matt Swanson <mdswanson@sep.com>
+Date:   Sun Jan 15 16:55:07 2012 -0500
+
+    Add Atom rss feeds
+
+[33mcommit a7608142e282230f3a1c7f7961231d427e9cf2b6[m
+Merge: e34311d 72f5694
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Thu Jan 12 23:32:41 2012 -0800
+
+    fix merge conflict
+
+[33mcommit e34311ddedc6c0e3481971985e67451921a6a82c[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Thu Jan 12 12:54:32 2012 -0800
+
+    use twitter theme as default
+
+[33mcommit 4aadec216a6799700b13b1bb97733791a573e16a[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Thu Jan 12 12:53:23 2012 -0800
+
+    add twitter bootstrap theme
+
+[33mcommit eca5de05bc87a14f08b9e671ed9e0a69c438b520[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Thu Jan 12 12:51:35 2012 -0800
+
+    assign active class to li
+
+[33mcommit 23836110c95113492fb7598f473d09bf555cca4e[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Thu Jan 12 12:50:49 2012 -0800
+
+    add little arrow to collated list
+
+[33mcommit ef17645ef8b2028661079ff3d2b10b34684d4204[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Thu Jan 12 12:50:03 2012 -0800
+
+    specify page group 'navigation'
+    
+    Also clean out pages.html and just list all pages
+
+[33mcommit 5abba311dcbb69e67b025da26fed32a19e7c0852[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Thu Jan 12 12:47:58 2012 -0800
+
+    sample content updates
+
+[33mcommit 4bcfd7aec6b57d344ed657cfde7b67418139119b[m
+Author: Yuya Saito <studiomohawk@gmail.com>
+Date:   Fri Jan 13 10:44:12 2012 +0900
+
+    add more detail
+
+[33mcommit 4da313acf4a3b6b60b399d3d42175bd79bb3eda1[m
+Author: Yuya Saito <studiomohawk@gmail.com>
+Date:   Fri Jan 13 09:41:27 2012 +0900
+
+    Fixed minor issues
+
+[33mcommit 0ec3a40a53d2ddc01f7386009f952fe85d4bbe31[m
+Author: Yuya Saito <studiomohawk@gmail.com>
+Date:   Fri Jan 13 09:40:16 2012 +0900
+
+    missing ul tags
+
+[33mcommit 320470d8442fd977734ae5cf359a3ba79ed7f90e[m
+Author: Yuya Saito <studiomohawk@gmail.com>
+Date:   Fri Jan 13 09:39:37 2012 +0900
+
+    remove linear class
+
+[33mcommit 775898886708e13903be06e68486b3e577c2bff6[m
+Author: Yuya Saito <studiomohawk@gmail.com>
+Date:   Fri Jan 13 09:39:09 2012 +0900
+
+    remove linear class
+
+[33mcommit 4021a8c402122240cead072c14fd999b8058d69b[m
+Author: Yuya Saito <studiomohawk@gmail.com>
+Date:   Fri Jan 13 08:20:31 2012 +0900
+
+    title should not have changed
+
+[33mcommit 72f569454266345a1ede3829bfe07b6b7d14fcff[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Thu Jan 12 12:54:32 2012 -0800
+
+    use twitter theme as default
+
+[33mcommit 3a6ba2d1db62185d2756c23fee0ad20301c2338b[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Thu Jan 12 12:53:23 2012 -0800
+
+    add twitter bootstrap theme
+
+[33mcommit 46c738ce71db42202c34523b1d2b18da95c303a8[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Thu Jan 12 12:51:35 2012 -0800
+
+    assign active class to li
+
+[33mcommit 2e16fad591d1808f5f89d7b584be8b99f2015434[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Thu Jan 12 12:50:49 2012 -0800
+
+    add little arrow to collated list
+
+[33mcommit 3b239b9cc4b2a9205d7bf0307ac412d336ec2309[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Thu Jan 12 12:50:03 2012 -0800
+
+    specify page group 'navigation'
+    
+    Also clean out pages.html and just list all pages
+
+[33mcommit ab03c6dd45635bd8ac967c844da0efe145cfce4d[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Thu Jan 12 12:47:58 2012 -0800
+
+    sample content updates
+
+[33mcommit 66a3d569c4c035ba9737affe4d8e31e6a555cebb[m
+Author: Yuya Saito <studiomohawk@gmail.com>
+Date:   Thu Jan 12 17:43:18 2012 +0900
+
+    the_minimum theme is ready
+
+[33mcommit dc6bc0d912974a7a7be6b360ccba2f535c3f5679[m
+Author: Yuya Saito <studiomohawk@gmail.com>
+Date:   Thu Jan 12 17:42:50 2012 +0900
+
+    add feedbuner url
+
+[33mcommit 223a9ca6a2da0cf571d343c5832510162a279bf5[m
+Author: Yuya Saito <studiomohawk@gmail.com>
+Date:   Thu Jan 12 17:41:52 2012 +0900
+
+    add rake preview for development
+
+[33mcommit 486d099e96e09efff776681503b558956300871a[m
+Author: Yuya Saito <studiomohawk@gmail.com>
+Date:   Thu Jan 12 10:28:22 2012 +0900
+
+    add .rbenv-version
+
+[33mcommit 4c18e3c136bea49e3335ab594ae22d999892cf27[m
+Author: Jade Dominguez <plusjade@gmail.com>
+Date:   Fri Dec 30 14:17:44 2011 -0800
+
+    version 0.0.1

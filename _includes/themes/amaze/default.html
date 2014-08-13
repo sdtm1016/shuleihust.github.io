@@ -175,17 +175,17 @@
 
 <script type="text/javascript">
   function showTag(tagStr) {
-    $.getJSON("../post.json",
+    $.getJSON("/post.json",
     function(data) {
       $('#content').empty();
-      var content = '<div data-am-widget="list_news" class="am-list-news am-list-news-default"><div class="am-list-news-hd am-cf"><h2>分类：' + tagStr + '</h2></div><div class="am-list-news-bd"><ul class="am-list">';
+      var content = '<div data-am-widget="list_news" class="am-list-news am-list-news-default"><div class="am-list-news-hd am-cf"><h2>标签：' + tagStr + '&nbsp;共有' + data.length + '篇文章</h2></div><div class="am-list-news-bd"><ul class="am-list">';
       var count = 0;
       $.each(data,
       function(i, item) {
         $.each(item.tags,
         function(j, tag) {
           if (tag == tagStr) {
-            content+='<li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left"><div class="am-col col-sm-4 am-list-thumb" style="max-width: 100px;float: left;"><a href="'+item.url+'"><img src="http://img5.douban.com/lpic/o636459.jpg" alt=""/></a></div><div class="am-col col-sm-12 am-list-main" style="position: absolute;padding-left: 110px;"><h3 class="am-list-item-hd"><a href="'+item.url+'">'+item.title+'</a></h3><h4 class="am-list-item-hd post-detail"><span class="post-date">'+item.date+'</span><span class="ds-thread-count" data-thread-key="{{ BASE_PATH }}'+item.id+'"></span></h4><div class="am-list-item-text">'+item.content+'</div></div></li>';
+            content+='<li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left"><div class="am-col col-sm-4 am-list-thumb" style="max-width: 100px;float: left;"><a href="'+item.url+'"><img src="http://img5.douban.com/lpic/o636459.jpg" alt=""/></a></div><div class="am-col col-sm-12 am-list-main" style="position: absolute;padding-left: 110px;"><h3 class="am-list-item-hd"><a href="'+item.url+'">'+item.title+'</a></h3><h4 class="am-list-item-hd post-detail" data-url="'+item.url+'"><span class="post-date">'+item.date+'</span></h4><div class="am-list-item-text">'+item.content+'</div></div></li>';
             count++;
           }
         });
@@ -195,20 +195,32 @@
         postNumStr = "<span>（" + count + "篇文章）</span>";
         $('#content').append(content);
         $('#content>h2').append(postNumStr);
-        $('#content li').each(function(i,n){
-            var commentEl=$(n).find('.ds-thread-count');
-            var threadKey=commentEl.data('thread-key');
-            $.getJSON("http://api.duoshuo.com/threads/counts.json?short_name=shuleihust&threads="+threadKey,function(data){
-              var comments=data.response[threadKey].comments;
-                if(comments){
-                    commentEl.text(response.options.comments_multiple.replace('{num}',comments));
-                }else{
-                    commentEl.text(response.options.comments_zero);
-                }
-            });
+        $('#content .post-detail').each(function(i,n){
+            getDuoshuoComments(n);
         });
       }
     });
+  }
+
+  function getDuoshuoComments (container) {
+      var url=$(container).data('url')
+      var el = document.createElement('div');//该div不需要设置class="ds-thread"
+      el.setAttribute('data-thread-key', url);//必选参数
+      el.setAttribute('data-url', url);//必选参数
+      $(el).css({display: 'none'});
+      el.setAttribute('data-author-key', duoshuoQuery.short_name);//可选参数
+      DUOSHUO.EmbedThread(el);
+      var el1=document.createElement('span');
+      $(el).on('DOMNodeInserted',function(e) {
+          var conts=$(el).find('.ds-comments-tab-duoshuo').text();
+          if(conts!=null&&conts.length>2&&$(el1).text()==''){
+                $(el1).addClass('ds-thread-count')
+                el1.setAttribute('data-thread-key', url);
+                $(el1).text(conts);
+                $(container).append(el1);
+          }
+      });
+      $(container).append(el);
   }
 </script>
 <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
@@ -224,5 +236,7 @@
     })();
     </script>
   <!-- 多说公共JS代码 end -->
+
+
 </body>
 </html>

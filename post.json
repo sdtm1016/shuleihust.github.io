@@ -5,7 +5,6 @@ layout: nil
 [
 {% for post in site.posts %}
   {"title":"{{post.title}}",
-  "id" : "{{post.url}}",
   "url":"{{site.url}}{{post.url}}",
   "content":"{{ post.content  | | split:'<!--break-->' | first | strip_html | strip_newlines }}",
   "date":"{{ post.date | date:'%Y-%m-%d' }}",

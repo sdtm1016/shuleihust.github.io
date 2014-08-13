@@ -1,13 +1,11 @@
 ---
 layout: post
-title: "freegoole"
+title: "免翻墙镜像"
 description: ""
 category: 
-tags: []
+tags: [翻墙]
 ---
 {% include JB/setup %}
-
-免翻墙镜像
 
 本页面收集了墙内镜像。请将此页加为书签。若镜像被封锁，请访问本页面获取最新镜像。
 

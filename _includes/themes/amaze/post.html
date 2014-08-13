@@ -1,9 +1,20 @@
-
 <article class="blog-main single-post">
-  <h3 class="am-article-title blog-title">
+
+  <h3 class="am-article-title">
+      <a href="##">{{ page.title }}</a>
+  </h3>
+  <h4 class="am-article-meta blog-meta">
+    <span class="post-date" style="margin-right:20px;">{{ page.date | date:"%Y-%m-%d" }}</span>
+    <span class="ds-thread-count" data-thread-key="{{ BASE_PATH }}{{ page.url }}"></span>
+  </h4>
+  <!-- <h3 class="am-article-title blog-title">
     {{ page.title }}
   </h3>
   <h4 class="am-article-meta post-detail">{{ page.date | date:"%Y-%m-%d" }}</h4>
+  <h4 class="am-article-meta post-detail">
+    <span class="post-date">{{ page.date | date:"%Y-%m-%d" }}</span>
+    <span class="ds-thread-count" data-thread-key="{{ BASE_PATH }}{{ page.url }}"></span>
+  </h4> -->
   <div class="am-g blog-content" style="margin-left: 0;">
     {{ content }}
   </div>

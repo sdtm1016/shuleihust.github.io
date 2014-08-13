@@ -11,7 +11,7 @@ pygments: true
 title : 3T工作室
 org_name : 3T工作室
 repo_path : https://github.com/studio3t
-home_path : home.html
+home_path : /home.html
 tagline: Site Tagline
 author :
   name : 3T工作室

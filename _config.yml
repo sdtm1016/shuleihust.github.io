@@ -11,7 +11,7 @@ pygments: true
 title : 3T工作室
 org_name : 3T工作室
 repo_path : https://github.com/studio3t
-home_path : home.html
+home_path : /home.html
 tagline: Site Tagline
 author :
   name : 3T工作室
@@ -131,6 +131,3 @@ JB :
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
   
-
-# All organizition memebers are configed here
-#

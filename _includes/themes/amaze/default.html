@@ -177,7 +177,7 @@
     $.getJSON("/post.json",
     function(data) {
       $('#content').empty();
-      var content = '<div data-am-widget="list_news" class="am-list-news am-list-news-default"><div class="am-list-news-hd am-cf"><h2>标签：' + tagStr + '&nbsp;共有' + data.length + '篇文章</h2></div><div class="am-list-news-bd"><ul class="am-list">';
+      var content = '<div data-am-widget="list_news" class="am-list-news am-list-news-default"><div class="am-list-news-hd am-cf"><h2>标签：' + tagStr + '&nbsp;</h2></div><div class="am-list-news-bd"><ul class="am-list">';
       var count = 0;
       $.each(data,
       function(i, item) {
@@ -191,9 +191,9 @@
       });
       if (count > 0) {
         content += "</ul></div></div>";
-        postNumStr = "<span>（" + count + "篇文章）</span>";
+        postNumStr = "<span>（共有" + count + "篇文章）</span>";
         $('#content').append(content);
-        $('#content>h2').append(postNumStr);
+        $('#content h2').first().append(postNumStr);
         $('#content .post-detail').each(function(i,n){
             getDuoshuoComments(n);
         });

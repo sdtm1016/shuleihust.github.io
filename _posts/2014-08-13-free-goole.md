@@ -7,10 +7,6 @@ tags: [翻墙]
 ---
 {% include JB/setup %}
 
-<article class="markdown-body entry-content" itemprop="mainContentOfPage">
-
-##
-[<span class="octicon octicon-link"></span>](#%E5%85%8D%E7%BF%BB%E5%A2%99%E9%95%9C%E5%83%8F)免翻墙镜像
 
 本页面收集了墙内镜像。请将此页加为书签。若镜像被封锁，请访问本页面获取最新镜像。
 
@@ -151,4 +147,5 @@ RT @mcgregorrichard: Beijing to create a "Chinese Christian belief" system, conf
 @SanNuvola also a distinct possibility (2014年08月08日 02:22)
 
 * * *
-</article>
+
+原文地址 [https://github.com/greatfire/wiki](https://github.com/greatfire/wiki)

@@ -184,7 +184,7 @@
         $.each(item.tags,
         function(j, tag) {
           if (tag == tagStr) {
-            content+='<li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left"><div class="am-col col-sm-4 am-list-thumb" style="max-width: 100px;float: left;"><a href="'+item.url+'"><img src="/assets/themes/amaze/i/default-thumb.png" alt=""/></a></div><div class="am-col col-sm-12 am-list-main" style="position: absolute;padding-left: 110px;"><h3 class="am-list-item-hd"><a href="'+item.url+'" target="_blank">'+item.title+'</a></h3><h4 class="am-list-item-hd post-detail" data-url="'+production_url+item.url+'"><span class="post-date">'+item.date+'</span></h4><div class="am-list-item-text">'+item.content+'</div></div></li>';
+            content+='<li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left"><div class="am-col col-sm-4 am-list-thumb" style="max-width: 100px;float: left;"><a href="'+item.url+'"><img src="/assets/themes/amaze/i/default-thumb.png" alt=""/></a></div><div class="am-col col-sm-12 am-list-main" style="position: absolute;padding-left: 110px;"><h3 class="am-list-item-hd"><a href="'+item.url+'" target="_blank">'+item.title+'</a></h3><h4 class="am-list-item-hd post-detail" data-url="'+item.url+'"><span class="post-date">'+item.date+'</span></h4><div class="am-list-item-text">'+item.content+'</div></div></li>';
             count++;
           }
         });
@@ -205,7 +205,7 @@
       var url=$(container).data('url')
       var el = document.createElement('div');//该div不需要设置class="ds-thread"
       el.setAttribute('data-thread-key', url);//必选参数
-      el.setAttribute('data-url', url);//必选参数
+      el.setAttribute('data-url', production_url+url);//必选参数
       $(el).css({display: 'none'});
       el.setAttribute('data-author-key', duoshuoQuery.short_name);//可选参数
       DUOSHUO.EmbedThread(el);
@@ -235,7 +235,6 @@
     })();
     </script>
   <!-- 多说公共JS代码 end -->
-
 
 </body>
 </html>

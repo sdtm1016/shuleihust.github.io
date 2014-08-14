@@ -23,7 +23,7 @@ tagline: tagline
           </h3>
           <h4 class="am-list-item-hd post-detail">
             <span class="post-date">{{ post.date | date:"%Y-%m-%d" }}</span>
-            <span class="ds-thread-count" data-thread-key="{{ site.production_url }}{{post.id}}"></span>
+            <span class="ds-thread-count" data-thread-key="{{post.url}}"></span>
           </h4>
           <div class="am-list-item-text">{{ post.content  | | split:'<!--break-->' | first }}</div>
         </div>

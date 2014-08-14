@@ -5,7 +5,7 @@
   </h3>
   <h4 class="am-article-meta blog-meta">
     <span class="post-date" style="margin-right:20px;">{{ page.date | date:"%Y-%m-%d" }}</span>
-    <span class="ds-thread-count" data-thread-key="{{site.production_url}}{{ page.url }}"></span>
+    <span class="ds-thread-count" data-thread-key="{{ page.url }}"></span>
   </h4>
   <!-- <h3 class="am-article-title blog-title">
     {{ page.title }}
@@ -37,6 +37,6 @@
 </ul>
 
 <!-- 多说评论框 start -->
-  <div class="ds-thread" data-thread-key="{{site.production_url}}{{page.id}}" data-title="{{page.title}}" data-url="{{site.production_url}}{{page.url}}"></div>
+  <div class="ds-thread" data-thread-key="{{page.url}}" data-title="{{page.title}}" data-url="{{ site.production_url }}{{page.url}}"></div>
 <!-- 多说评论框 end -->
 {% include JB/comments %}
